@@ -3,7 +3,7 @@ Absolutely! Here's a clean, professional **README.md** for your StockAPI project
 ---
 
 ```markdown
-# StockAPI
+#StockAPI
 
 A lightweight Flask API for fetching real-time stock data using Yahoo Finance.  
 Supports single-stock queries as well as batch requests for multiple stock symbols.
@@ -19,7 +19,7 @@ Supports single-stock queries as well as batch requests for multiple stock symbo
 
 ---
 
-## Project Structure
+##Project Structure
 
 ```
 
@@ -40,7 +40,7 @@ StockAPI/
 
 ---
 
-## Installation
+##Installation
 
 1. Clone the repository:
 
@@ -80,9 +80,9 @@ http://127.0.0.1:5000
 
 ---
 
-## API Endpoints
+##API Endpoints
 
-### Get a single stock
+###Get a single stock
 
 ```
 GET /stock/<symbol>
@@ -106,7 +106,7 @@ http://127.0.0.1:5000/stock/TSLA
 
 ---
 
-### Get multiple stocks
+###Get multiple stocks
 
 ```
 GET /stocks?symbols=AAPL,MSFT,GOOG
@@ -126,7 +126,7 @@ GET /stocks?symbols=AAPL,MSFT,GOOG
 
 
 
-## License
+##License
 
 This project is open-source and free to use for personal or educational purposes.
 
